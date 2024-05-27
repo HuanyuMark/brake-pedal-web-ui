@@ -1,0 +1,23 @@
+{
+  "files": [],
+  "compilerOptions": {
+    // "composite": true,
+    // "typeRoots": [
+    //   "./",
+    //   "node_modules/@types"
+    // ]
+    "types": [
+      "element-plus/global"
+    ],
+    // "moduleResolution": "NodeNext",
+    // "target": "ESNext",
+  },
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    },
+    {
+      "path": "./tsconfig.app.json"
+    }
+  ]
+}
